@@ -82,8 +82,8 @@ This firmware is one part of the **Soft Robot Control System**, which also inclu
 - **Machine Learning Models** – for mapping sensor readings to actuator poses and supporting high-level control strategies.  
 
 👉 For the full project, see the companion repositories:  
-- [soft-robotics-gui](https://github.com/luqmanroslan/soft-robotics-gui)  
-- [ml-training](https://github.com/luqmanroslan/ml-training)  
+- [soft-robotics-gui](https://github.com/luqmanroslan/SoftRobotics-PyQt5-GUI)  
+- [ml-sensor-fusion](https://github.com/luqmanroslan/ml-training)  
 
 
 
