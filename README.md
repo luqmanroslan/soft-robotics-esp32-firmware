@@ -2,7 +2,7 @@
 # Soft Robot Firmware – ESP32 Low-Level Controller  
 
 This repository contains the **ESP32 firmware** for the soft robotic actuator control system.  
-It implements **high-level length control, low-level pressure regulation, IMU telemetry, and safety mechanisms**, providing a reliable interface between the robot hardware and a PC-side GUI.  
+It implements **high-level length control, low-level pressure regulation, and safety mechanisms**, providing a reliable interface between the robot hardware and a PC-side GUI.  
 
 ---
 
@@ -26,7 +26,7 @@ It implements **high-level length control, low-level pressure regulation, IMU te
 ---
 
 ## Repository Structure  
-- `High_Level_Controller_UpdatedV2.ino` — main firmware  
+- `Low_Level_Controller_Updated.ino` — main firmware  
 - `README.md` — documentation (this file)  
 
 ---
@@ -73,6 +73,18 @@ Install via Arduino Library Manager or manually:
 { "command": "start_dance" }
 { "command": "stop_dance" }
 ```
+
+---
+
+## Integration with the Full System  
+This firmware is one part of the **Soft Robot Control System**, which also includes:  
+- **PC-side GUI & Communication Layer** – for visualization, joystick/voice control, and serial communication with the ESP32.  
+- **Machine Learning Models** – for mapping sensor readings to actuator poses and supporting high-level control strategies.  
+
+👉 For the full project, see the companion repositories:  
+- [soft-robotics-gui](https://github.com/yourusername/soft-robotics-gui)  
+- [ml-training](https://github.com/luqmanroslan/ml-training)  
+
 
 
 
